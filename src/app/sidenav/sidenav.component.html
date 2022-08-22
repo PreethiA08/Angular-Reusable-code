@@ -1,0 +1,56 @@
+<mat-nav-list>
+
+<div class="logo py-4">
+      <h5>Company Logo</h5>
+</div>
+
+<mat-divider></mat-divider>
+
+<!-- <button mat-flat-button [mat-menu-trigger-for]="appMenu">Menu</button>  
+
+<mat-menu #appMenu="matMenu" xPosition="after" yPosition="below">
+  <button mat-menu-item>Dashboard
+    <mat-icon>dashboard</mat-icon>
+  </button>
+  <button  mat-menu-item [mat-menu-trigger-for]="subMenu1">Company Management</button>
+  <button mat-menu-item [mat-menu-trigger-for]="subMenu2">User Management</button>
+  <button mat-menu-item [mat-menu-trigger-for]="subMenu3" >Role Management</button>
+</mat-menu>
+
+<mat-menu #subMenu1="matMenu">
+  <button mat-menu-item>Add Company</button>
+  <button mat-menu-item>Delete Company</button>
+  <button mat-menu-item>Update Company</button>
+</mat-menu>
+
+<mat-menu #subMenu2="matMenu">
+  <button mat-menu-item>Add User</button>
+  <button mat-menu-item>Delete User</button>
+  <button mat-menu-item>Update User</button>
+</mat-menu>
+
+<mat-menu #subMenu3="matMenu">
+  <button mat-menu-item>Add Role</button>
+  <button mat-menu-item>Delete Role</button>
+  <button mat-menu-item>Update Role</button>
+</mat-menu> -->
+
+
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
+      <mat-icon>dashboard</mat-icon> Dashboard
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/company"> 
+      <mat-icon> business</mat-icon>Company Management 
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/user"> 
+      <mat-icon>perm_identity</mat-icon>User Management 
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/role"> 
+      <mat-icon>assignment_ind</mat-icon>Role Management 
+    </a> -->
+
+  </mat-nav-list>
